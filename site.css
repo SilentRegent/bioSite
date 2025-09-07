@@ -13,6 +13,18 @@ padding: 0;
 background-color: white;
 color:var(--color-neutral);
 }
+footer {
+  text-align: right;
+  font-style: italic;
+  padding: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: var(--color-dark);
+}
+footer a:hover {
+  text-decoration: underline;
+}
 
 
 header {
