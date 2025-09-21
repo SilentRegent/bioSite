@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #EBBCBC;   /* soft rose  */
+  --color-primary: #E6A5AA;   /* soft rose  */
   --color-secondary: #EBC4BB; /* light peach  */
   --color-accent: #ED5AAE;    /* vibrant pink  */
   --color-neutral: #EBD5BC;   /* warm beige */
@@ -7,10 +7,10 @@
   --color-dark: #333333;      /* text color */
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: #fff0f5;
   color:var(--color-neutral);
 }
 footer {
@@ -76,13 +76,8 @@ h1 {
   gap: 10px;                 /* space between the two sections */
 }
 
-#container h2 {
-  border-bottom: solid var(--color-highlight);
-  border-style: dotted;
-  color: var(--color-dark);
-  padding: 15px;
-  margin: 30px;
-}
+
+
 .current ol {
   display: flex;              
   justify-content: center;    
@@ -92,7 +87,7 @@ h1 {
   padding: 0;
 }
 
-.current li {
+.current li, .future img {
   background-color: var(--color-neutral);
   padding: 15px;
   border-radius: 12px;
@@ -117,6 +112,17 @@ img {
   max-width: 800px;    
   text-align: center;  
 }
+.current h2 {
+  background-color: var(--color-neutral);
+  font-size: 48px;
+  border-radius: 8px;
+}
+.future h2 {
+  background-color: var(--color-neutral);
+  font-size: 48px;
+  border-radius: 8px;
+}
+
 .figure img {
   align-items: center;
 }

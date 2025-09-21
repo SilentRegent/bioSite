@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #EBBCBC;   /* soft rose  */
+  --color-primary: #E6A5AA;   /* Cameo Pink  */
   --color-secondary: #EBC4BB; /* light peach  */
   --color-accent: #ED5AAE;    /* vibrant pink  */
   --color-neutral: #EBD5BC;   /* warm beige */
@@ -7,10 +7,10 @@
   --color-dark: #333333;      /* text color */
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: whitesmoke;
+  background-color: #fff0f5;
   color:var(--color-neutral);
 }
 footer {
@@ -111,8 +111,16 @@ div p {
 .center {
   flex: 2;
   text-align: center;
+  
 
 }
+.center h2 {
+  font-size: 48px;
+  background-color: var(--color-neutral);
+  border-radius: 8px;
+}
+
+
 
 
 
